@@ -55,7 +55,7 @@
         },
         {focus: 'Respond to change',            content: "Sprints",                  level: 1,
           explanation: 'Sprints, or iterations, are regularly occurring time-boxes occurring on a fixed cadence. The team can demonstrate working software at the end of each Sprint. Sprints contain all the work and other ceremonies of Scrum.
-                        Sprints longer than a month accumulate too much risk. Sprints less than a week are often too short to deliver customer value. Two-week Sprints are the sweet spot that works for most teams at GoDaddy.',
+                        Sprints longer than a month accumulate too much risk. Sprints less than a week are often too short to deliver customer value. Two-week Sprints are the sweet spot that works for most teams at the company.',
           possible_answers_attributes: [
             { content: "1", explanation: "We do not consistently have fixed-length iterations" },
             { content: "2", explanation: "We work in short fixed-length sprints" },
