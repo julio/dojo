@@ -197,7 +197,6 @@ Collaboration simply means to work jointly rather than independently to accompli
 
 For teams to be successful, collaboration must occur between Product Owners planning and coordinating their Product Backlogs. Further, technologists from interdependent teams must work together to overcome integration obstacles.',
 
-
 **Answers**
 
 - 1: We are routinely blocked by other teams and do not have a clear idea when we will be unblocked
@@ -214,61 +213,81 @@ For teams to be successful, collaboration must occur between Product Owners plan
 
 ## User Stories
 
-        explanation: 'User Stories are a tool used in agile environments. They act as lightweight requirements that are easily understood by stakeholders and development team members. The lightweight nature of User Stories helps shift the focus from writing about requirements to talking about them.
-                      All agile User Stories include a written sentence or two and, more importantly, a series of conversations about the desired functionality.
-                      These items tell a story, about how the user is to interact with the system. User Stories are not the sole responsibility of the Product Owner, but the Product Owner is accountable for ordering them in the Product Backlog.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We capture our work in an actionable format" },
-          { content: "2", explanation: "The purpose for each User Story is well understood by the team" },
-          { content: "3", explanation: "Most of our User Stories have actionable and verifiable acceptance criteria" },
-          { content: "4", explanation: "The majority of our User Story tells a story about how the user would interact with our product"  }
-        ],
-        question_hints_attributes: [
-          { content: "Most of our User Stories communicate value to our users" },
-          { content: "Most of our User Stories tell a story on how a user will interact with our product" },
-          { content: "Most of our User Stories fit in a single sprint, from start to done" },
-          { content: "Most of our User Stories have automatable acceptance criteria" }
-        ]
-      },
-      {focus: 'Working software',             content: "Sprint Goals",             level: 3,
-        explanation: 'A Sprint Goal summarizes the desired outcome of an iteration. It provides a shared objective, and it states why it\'s worthwhile undertaking the Sprint. Each Sprint should have one Sprint Goal for the team to share.
-                      Sample Sprint Goals include
+### Explanation
 
-                      - Create the correct user interaction for the registration feature.
-                      - Provide the missing reporting functionality.
+User Stories are a tool used in agile environments. They act as lightweight requirements that are easily understood by stakeholders and development team members. The lightweight nature of User Stories helps shift the focus from writing about requirements to talking about them.
 
-                      This helps with focus and clear understanding of Sprint outcomes.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We do not have specific and distinct business goals for each sprint" },
-          { content: "2", explanation: "We have some idea for how the stories we are working on relate to each other" },
-          { content: "3", explanation: "On most sprints we identify a set of goals that we are trying to get to by the end of the sprint" },
-          { content: "4", explanation: "Each sprint has a very specific focus that all the stories align with and the whole team is working towards" }
-        ],
-        question_hints_attributes: [
-          { content: "Each sprint has a goal to that the Product Owner and team agree to accomplish during the sprint" },
-          { content: "Each sprint has a goal to align team members to a common purpose" },
-          { content: "Each sprint has a goal to encourage team focus" },
-          { content: "Each sprint has a goal to encourage the team to self-organize" }
-        ]
-      },
-      {focus: 'Respond to change',            content: "Design Simplicity",        level: 3,
-        explanation: 'Agile teams are under pressure to deliver working, tested code at the end of each Sprint. They are also available to their customers for potentially radical requirements changes at any point outside the boundary of a Sprint. This means the Sprint Goal from one Sprint to the next may be radically different.
-                      Thus, the design of code must allow it to change direction quickly. Agile teams place enormous value on the extensibility of their code: the extent to which they can easily maintain and extend it.
-                      Code is written to be maintainable and understandable by the next person who sees it. Refactoring to keep code extensible and code design simple are key components to extensibility. Commonly understood patterns and implementation designs are key to simplicity.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We often over-engineer our solutions" },
-          { content: "2", explanation: "We are sometimes distracted by what-if scenarios that we want to plan for" },
-          { content: "3", explanation: "We design our solutions for the story at hand, without anticipating what future stories and sprints might need" },
-          { content: "4", explanation: "Thanks to techniques such as TDD, BDD, Pair Programming, Clear Acceptance Criteria, Definition of Done; a story is done when it does what is supposed to do, an no more" }
-        ],
-        question_hints_attributes: [
-          { content: "The team does not create abstractions before they are needed" },
-          { content: "The team uses design and architecture patterns to improve efficiency" },
-          { content: "The team strives to express our code as simply as possible" },
-          { content: "The team refactors code as we create new features and fix bugs" }
-        ]
-      },
-      # the following are necessary to max out level 4 and get to level 5 (diamond)
+All agile User Stories include a written sentence or two and, more importantly, a series of conversations about the desired functionality.
+
+These items tell a story, about how the user is to interact with the system. User Stories are not the sole responsibility of the Product Owner, but the Product Owner is accountable for ordering them in the Product Backlog.',
+
+**Answers**
+
+- 1: We capture our work in an actionable format
+- 2: The purpose for each User Story is well understood by the team
+- 3: Most of our User Stories have actionable and verifiable acceptance criteria
+- 4: The majority of our User Story tells a story about how the user would interact with our product
+
+**Hints**
+
+- Most of our User Stories communicate value to our users
+- Most of our User Stories tell a story on how a user will interact with our product
+- Most of our User Stories fit in a single sprint, from start to done
+- Most of our User Stories have automatable acceptance criteria
+
+## Sprint Goals
+
+### Explanation
+
+A Sprint Goal summarizes the desired outcome of an iteration. It provides a shared objective, and it states why it\'s worthwhile undertaking the Sprint. Each Sprint should have one Sprint Goal for the team to share.
+
+Sample Sprint Goals include
+
+  - Create the correct user interaction for the registration feature
+  - Provide the missing reporting functionality
+
+This helps with focus and clear understanding of Sprint outcomes.
+
+**Answers**
+
+- 1: We do not have specific and distinct business goals for each sprint
+- 2: We have some idea for how the stories we are working on relate to each other
+- 3: On most sprints we identify a set of goals that we are trying to get to by the end of the sprint
+- 4: Each sprint has a very specific focus that all the stories align with and the whole team is working towards
+
+**Hints**
+
+- Each sprint has a goal to that the Product Owner and team agree to accomplish during the sprint
+- Each sprint has a goal to align team members to a common purpose
+- Each sprint has a goal to encourage team focus
+- Each sprint has a goal to encourage the team to self-organize
+
+## Design Simplicity
+
+### Explanation
+
+Agile teams are under pressure to deliver working, tested code at the end of each Sprint. They are also available to their customers for potentially radical requirements changes at any point outside the boundary of a Sprint. This means the Sprint Goal from one Sprint to the next may be radically different.
+
+Thus, the design of code must allow it to change direction quickly. Agile teams place enormous value on the extensibility of their code: the extent to which they can easily maintain and extend it.
+
+Code is written to be maintainable and understandable by the next person who sees it. Refactoring to keep code extensible and code design simple are key components to extensibility. Commonly understood patterns and implementation designs are key to simplicity.',
+
+**Answers**
+
+- 1: We often over-engineer our solutions
+- 2: We are sometimes distracted by what-if scenarios that we want to plan for
+- 3: We design our solutions for the story at hand, without anticipating what future stories and sprints might need
+- 4: Thanks to techniques such as TDD, BDD, Pair Programming, Clear Acceptance Criteria, Definition of Done; a story is done when it does what is supposed to do, an no more
+
+**Hints**
+
+- The team does not create abstractions before they are needed
+- The team uses design and architecture patterns to improve efficiency
+- The team strives to express our code as simply as possible
+- The team refactors code as we create new features and fix bugs
+
+# Level 4 - Diamond
+
       {focus: 'Individuals and interactions', content: "Team Transparency",        level: 4,
         explanation: 'Openness, transparency, and visibility are critical to successful Scrum adoption. A Scrum Team’s transparency makes everything going on within the project visible to any stakeholders, so they can adjust their plans according to the reality of what is happening in the Scrum Team.
                       For Scrum to be successful, there is no hidden work. Everyone knows what is currently being worked on, what will likely be worked on next, what will be delivered by the team by the end of each Sprint.',
