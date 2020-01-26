@@ -102,87 +102,118 @@ A team that is cross-functional and self-organizing will be able to deliver busi
 
 A self-organizing team has all the competencies it needs to deliver working software; team members actively help each other learn and improve in new areas.',
 
-# ----------
-        possible_answers_attributes: [
-          { content: "1", explanation: "We are told how and who should do what" },
-          { content: "2", explanation: "We estimate our work as a team" },
-          { content: "3", explanation: "We have all the skills and the confidence to accomplish all the work we take on" },
-          { content: "4", explanation: "Work in progress is very limited and no work gets started without other end-to-end work being completed" }
-        ],
-        question_hints_attributes: [
-          { content: "We are responsible for managing our work" },
-          { content: "We estimate the size and complexity of our work" },
-          { content: "We have all the skills needed to deliver working software" },
-          { content: "We work on the same projects together" }
-        ]
-      },
-      {focus: 'Customer collaboration',       content: "Backlog",                  level: 2,
-        explanation: 'The Product Backlog in Scrum is the single source of truth for what changes will occur in the product. It is a list of ordered changes to occur in the software being created. It contains short descriptions of all functionality desired in the product. It is not necessary to have a lengthy Product Backlog to get started working on creating software.
-                      Often, a Scrum Team creates an initial Product Backlog by writing down everything they can think of for Backlog ordering. This Product Backlog is almost always enough for a first Sprint.
-                      The Scrum Product Backlog is then allowed to grow and change as more is learned about the product and its customers. A healthy Product Backlog forecasts work for about the next 3 Sprints.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We do not have a single, centralized backlog" },
-          { content: "2", explanation: "The team works from a single backlog" },
-          { content: "3", explanation: "The items in the backlog are priorized according to their business or customer value"     },
-          { content: "4", explanation: "Our backlog is clean, groomed, and ready for execution for at least a few sprints"  }
-        ],
-        question_hints_attributes: [
-          { content: "Our Product Backlog is ordered by value" },
-          { content: "Our Product Backlog is forecast several sprints ahead" },
-          { content: "Our Product Backlog is a good representation of the products we are building" },
-          { content: "Our Product Backlog maps to a burndown or a build-up progress chart" }
-        ]
-      },
-      {focus: 'Working Software',             content: "Scrum Master",             level: 2,
-        explanation: 'The Scrum Master is responsible for making sure a Scrum Team thrives by living the values and principles of agile. The Scrum Master coaches the team to higher levels of performance, helping the team do the best work it possibly can.
-                      The Scrum Master often facilitates meetings, such as the Sprint Retrospective, and Daily Scrum (or stand up) meeting. Good Scrum Masters are tireless advocates for their teams, blocking outside interference and removing impediments to the team’s success, allowing the team to focus throughout the Sprint.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We do not have anyone we could consider a scrum master" },
-          { content: "2", explanation: "We have a dedicated scrum master" },
-          { content: "3", explanation: "Our scrum master acts as a coach, facilitator, impediment remover and change agent" },
-          { content: "4", explanation: "Everyone in our team could be the ideal scrum master"  }
-        ],
-        question_hints_attributes: [
-          { content: "The SM acts as a coach"              },
-          { content: "The SM acts as a facilitator"        },
-          { content: "The SM acts as a impediment remover" },
-          { content: "The SM acts as a change agent"       }
-        ]
-      },
-      {focus: 'Respond to change',            content: "Automated Build",          level: 2,
-        explanation: 'Continuous Integration and Deployment (CICD) is the practice of automatically building, testing, and even deploying through an automated system. Each build results in an integrated software product, regardless of whether it is potentially valuable to ship.
-                      CICD steps are automated and repeatable, requiring no direct human intervention, and can be performed at any time. A healthy CICD pipeline should take a reasonable amount of time to complete, not blocking commits as it runs. Tests are run with each build, and if they fail, the build is considered broken. When the CICD build is broken, it is fixed immediately before new functionality is added.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "Building our software involves several undocumented manual steps" },
-          { content: "2", explanation: "The steps to build the software are well documented" },
-          { content: "3", explanation: "Running a single script is all that needs to be done"     },
-          { content: "4", explanation: "Anyone no matter how new to the team can build the software by running a script or pushing a button"  }
-        ],
-        question_hints_attributes: [
-          { content: "The software is built via an automated process, even if locally" },
-          { content: "The software is built each time a commit or check-in occurs" },
-          { content: "The software is built in a short and manageable amount of time" },
-          { content: "The software is built in an easy and repeatable way does not require specialized skills" }
-        ]
-      },
-      # the following are necessary to max out level 3 and get to level 4 (platinum)
-      {focus: 'Individuals and interactions', content: "Cross Team Collaboration", level: 3,
-        explanation: 'Collaboration simply means to work jointly rather than independently to accomplish a task.
-                      For teams to be successful, collaboration must occur between Product Owners planning and coordinating their Product Backlogs. Further, technologists from interdependent teams must work together to overcome integration obstacles.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We are routinely blocked by other teams and do not have a clear idea when we will be unblocked" },
-          { content: "2", explanation: "We are routinely blocked by other teams and can work around it as we know when we will be unblocked" },
-          { content: "3", explanation: "We collaborate with teams we depend on to minimize surprises and delays"     },
-          { content: "4", explanation: "We build our functionality in tight collaboration with the teams we are coupled with"  }
-        ],
-        question_hints_attributes: [
-          { content: "Our team does not surprise other teams with ad-hoc work requests" },
-          { content: "Our team share a combined definition of done with other teams" },
-          { content: "Our team does not hesitate attending other teams' ceremonies to improve learning and collaboration" },
-          { content: "Our team prefers to over-communicate when other teams have any dependency on ours" }
-        ]
-      },
-      {focus: 'Customer collaboration',       content: "User Stories",             level: 3,
+**Answers**
+
+- 1: We are told how and who should do what
+- 2: We estimate our work as a team
+- 3: We have all the skills and the confidence to accomplish all the work we take on
+- 4: Work in progress is very limited and no work gets started without other end-to-end work being completed
+
+**Hints**
+
+- We are responsible for managing our work
+- We estimate the size and complexity of our work
+- We have all the skills needed to deliver working software
+- We work on the same projects together
+
+## Backlog
+
+### Explanation
+
+The Product Backlog in Scrum is the single source of truth for what changes will occur in the product. It is a list of ordered changes to occur in the software being created. It contains short descriptions of all functionality desired in the product. It is not necessary to have a lengthy Product Backlog to get started working on creating software.
+
+Often, a Scrum Team creates an initial Product Backlog by writing down everything they can think of for Backlog ordering. This Product Backlog is almost always enough for a first Sprint.
+
+The Scrum Product Backlog is then allowed to grow and change as more is learned about the product and its customers. A healthy Product Backlog forecasts work for about the next 3 Sprints.',
+
+**Answers**
+
+- 1: We do not have a single, centralized backlog
+- 2: The team works from a single backlog
+- 3: The items in the backlog are prioritized according to their business or customer value
+- 4: Our backlog is clean, groomed, and ready for execution for at least a few sprints
+
+**Hints**
+
+- Our Product Backlog is ordered by value
+- Our Product Backlog is forecast several sprints ahead
+- Our Product Backlog is a good representation of the products we are building
+- Our Product Backlog maps to a burn-down or a build-up progress chart
+
+## Scrum Master
+
+### Explanation
+
+The Scrum Master is responsible for making sure a Scrum Team thrives by living the values and principles of agile.
+
+The Scrum Master coaches the team to higher levels of performance, helping the team do the best work it possibly can.
+
+The Scrum Master often facilitates meetings, such as the Sprint Retrospective, and Daily Scrum (or stand up) meeting. Good Scrum Masters are tireless advocates for their teams, blocking outside interference and removing impediments to the team’s success, allowing the team to focus throughout the Sprint.',
+
+**Answers**
+
+- 1: We do not have anyone we could consider a scrum master
+- 2: We have a dedicated scrum master
+- 3: Our scrum master acts as a coach, facilitator, impediment remover and change agent
+- 4: Everyone in our team could be the ideal scrum master
+
+**Hints**
+
+- The SM acts as a coach
+- The SM acts as a facilitator
+- The SM acts as a impediment remover
+- The SM acts as a change agent
+
+## Automated Build
+
+### Explanation
+
+Continuous Integration and Deployment (CICD) is the practice of automatically building, testing, and even deploying through an automated system. Each build results in an integrated software product, regardless of whether it is potentially valuable to ship.
+
+CICD steps are automated and repeatable, requiring no direct human intervention, and can be performed at any time. A healthy CICD pipeline should take a reasonable amount of time to complete, not blocking commits as it runs. Tests are run with each build, and if they fail, the build is considered broken. When the CICD build is broken, it is fixed immediately before new functionality is added.',
+
+
+**Answers**
+
+- 1: Building our software involves several undocumented manual steps
+- 2: The steps to build the software are well documented
+- 3: Running a single script is all that needs to be done
+- 4: Anyone no matter how new to the team can build the software by running a script or pushing a button
+
+**Hints**
+
+- The software is built via an automated process, even if locally
+- The software is built each time a commit or check-in occurs
+- The software is built in a short and manageable amount of time
+- The software is built in an easy and repeatable way does not require specialized skills
+
+# Level 3 - Platinum
+
+## Cross Team Collaboration
+
+### Explanation
+
+Collaboration simply means to work jointly rather than independently to accomplish a task.
+
+For teams to be successful, collaboration must occur between Product Owners planning and coordinating their Product Backlogs. Further, technologists from interdependent teams must work together to overcome integration obstacles.',
+
+
+**Answers**
+
+- 1: We are routinely blocked by other teams and do not have a clear idea when we will be unblocked
+- 2: We are routinely blocked by other teams and can work around it as we know when we will be unblocked
+- 3: We collaborate with teams we depend on to minimize surprises and delays
+- 4: We build our functionality in tight collaboration with the teams we are coupled with
+
+**Hints**
+
+- Our team does not surprise other teams with ad-hoc work requests
+- Our team share a combined definition of done with other teams
+- Our team does not hesitate attending other teams' ceremonies to improve learning and collaboration
+- Our team prefers to over-communicate when other teams have any dependency on ours
+
+## User Stories
+
         explanation: 'User Stories are a tool used in agile environments. They act as lightweight requirements that are easily understood by stakeholders and development team members. The lightweight nature of User Stories helps shift the focus from writing about requirements to talking about them.
                       All agile User Stories include a written sentence or two and, more importantly, a series of conversations about the desired functionality.
                       These items tell a story, about how the user is to interact with the system. User Stories are not the sole responsibility of the Product Owner, but the Product Owner is accountable for ordering them in the Product Backlog.',
