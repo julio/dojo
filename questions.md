@@ -288,73 +288,90 @@ Code is written to be maintainable and understandable by the next person who see
 
 # Level 4 - Diamond
 
-      {focus: 'Individuals and interactions', content: "Team Transparency",        level: 4,
-        explanation: 'Openness, transparency, and visibility are critical to successful Scrum adoption. A Scrum Team’s transparency makes everything going on within the project visible to any stakeholders, so they can adjust their plans according to the reality of what is happening in the Scrum Team.
-                      For Scrum to be successful, there is no hidden work. Everyone knows what is currently being worked on, what will likely be worked on next, what will be delivered by the team by the end of each Sprint.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We have our backlog available to anyone who wants to see" },
-          { content: "2", explanation: "We have a public slack room anyone can reach to ask questions, though we use a private one for ourselves" },
-          { content: "3", explanation: "We only have public slack rooms that anyone can join if they want to"     },
-          { content: "4", explanation: "We have public dashboards with our metrics, we have stand-ups out in the open, we invite other teams to our demos and ceremonies"  }
-        ],
-        question_hints_attributes: [
-          { content: "We have information radiators with visible metrics on how we are doing" },
-          { content: "We encourage members from other teams and our own managers to attend our ceremonies" },
-          { content: "We have open repos for anyone outside our team to contribute to" },
-          { content: "We frequently participate in demo fests" }
-        ]
-      },
-      {focus: 'Customer collaboration',       content: "Customer Value",           level: 4,
-        explanation: 'Whether a customer is internal or external, there is invariably at least one customer for every Scrum Team. The relationship between the cost of work performed and the needs of the customer determines the value of work performed.
-                      The value of work performed can and should be estimated or measured in a way that can be used to calculate the Return on Investment of any work the team undertakes.
-                      Any work undertaken in a Sprint should clearly map to the direct benefit it provides the customer, and the customer is often consulted by the Product Owner to ensure the most valuable work is being done next.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We do not always see how what we do aligns with customer value" },
-          { content: "2", explanation: "We build functionality for other teams and expect it to be part of a more valuable story" },
-          { content: "3", explanation: "We are confident that we are building exactly what customers say they want" },
-          { content: "4", explanation: "We use techniques such as Design Thinking to ensure we build what the customers really need, even they haven't expressed it" }
-        ],
-        question_hints_attributes: [
-          { content: "With the Product Owner, we ensure that our users could directly benefit from the work we do each sprint" },
-          { content: "With the Product Owner, we ensure that the team is focused on work with the highest possible business value" },
-          { content: "With the Product Owner, we ensure that the impact we have each sprint is instrumented and its value maximized" },
-          { content: "With the Product Owner, we ensure that we use techniques such as Design Thinking to maximize for customer satisfaction" }
-        ]
-      },
-      {focus: 'Working software',             content: "Release Planning",         level: 4,
-        explanation: 'A Development Team\'s velocity is a historical record of the amount of work completed in previous Sprints. This can help forecast how much work the team can get done per Sprint.
-                      Given a team\'s known velocity for its last several Sprints, a Release Plan represents how much scope that team intends to deliver by a given deadline. Alternatively, the forecast can show how long it will take to get a certain amount of the Product Backlog converted into working software. This is data vs. feature target planning.',
-        possible_answers_attributes: [
-          { content: "1", explanation: "We build functionality for the sprint and do not have a longer term vision for where we are going" },
-          { content: "2", explanation: "We know where the product should be this month" },
-          { content: "3", explanation: "We have a long term vision for the product that is well articulated by the Product Owner" },
-          { content: "4", explanation: "We track progress every sprint and can easily make realistic adjustments" }
-        ],
-        question_hints_attributes: [
-          { content: "Our Product Owner knows when our next release will likely be delivered and what the scope is likely to be" },
-          { content: "Our Product Owner has a public release plan" },
-          { content: "Our Product Owner understands that we can commit to a date or to scope, but not both" },
-          { content: "Our Product Owner is familiar with the cone of uncertainty and understands that we know more as time progresses" }
-        ]
-      },
-      {focus: 'Respond to change',            content: "Test Focus",               level: 4,
-        explanation: 'Test Focus ensures that everyone on the team has quality and automation in mind, and this is not the responsibility of just a person or two.',
-        possible_answers_attributes: [
-          # { content: "1", explanation: "One of our biggest challenges is that requirements keep changing" },
-          # { content: "2", explanation: "We can deal with changes in requirements for as long as they do not interrupt the current sprint" },
-          # { content: "3", explanation: "We can handle changes even during the current sprint" },
-          # { content: "4", explanation: "Changes in requirements have no impact in our productivity and ability to deliver"  }
-          { content: "1", explanation: "Our Continuous Integration system is not yet set up" },
-          { content: "2", explanation: "Our Continuous Integration system runs with every commits which not necessarily invalidates builds" },
-          { content: "3", explanation: "Our Continuous Integration system ensures we have high test coverage" },
-          { content: "4", explanation: "Our Continuous Integration system accounts performance, integration, i18n, compatilibty" }
-        ],
-        question_hints_attributes: [
-          { content: "Commits include accompanying automated tests" },
-          { content: "Commits trigger a Continuous Integration job that validates our functionality" },
-          { content: "Commits require very little human interventation to be validated" },
-          { content: "Commits are validated in terms of performance, security, i18n, and other advanced considerations" }
-        ]
-      }
-    ]
-  }
+## Team Transparency
+
+### Explanation
+
+Openness, transparency, and visibility are critical to successful Scrum adoption. A Scrum Team’s transparency makes everything going on within the project visible to any stakeholders, so they can adjust their plans according to the reality of what is happening in the Scrum Team.
+
+For Scrum to be successful, there is no hidden work. Everyone knows what is currently being worked on, what will likely be worked on next, what will be delivered by the team by the end of each Sprint.',
+
+**Answers**
+
+- 1: We have our backlog available to anyone who wants to see
+- 2: We have a public slack room anyone can reach to ask questions, though we use a private one for ourselves
+- 3: We only have public slack rooms that anyone can join if they want to
+- 4: We have public dashboards with our metrics, we have stand-ups out in the open, we invite other teams to our demos and ceremonies
+
+**Hints**
+
+- We have information radiators with visible metrics on how we are doing
+- We encourage members from other teams and our own managers to attend our ceremonies
+- We have open repos for anyone outside our team to contribute to
+- We frequently participate in demo fests
+
+## Customer Value
+
+# Explanation
+
+Whether a customer is internal or external, there is invariably at least one customer for every Scrum Team. The relationship between the cost of work performed and the needs of the customer determines the value of work performed.
+
+The value of work performed can and should be estimated or measured in a way that can be used to calculate the Return on Investment of any work the team undertakes.
+
+Any work undertaken in a Sprint should clearly map to the direct benefit it provides the customer, and the customer is often consulted by the Product Owner to ensure the most valuable work is being done next.',
+
+**Answers**
+
+- 1: We do not always see how what we do aligns with customer value
+- 2: We build functionality for other teams and expect it to be part of a more valuable story
+- 3: We are confident that we are building exactly what customers say they want
+- 4: We use techniques such as Design Thinking to ensure we build what the customers really need, even they haven't expressed it
+
+**Hints**
+
+- With the Product Owner, we ensure that our users could directly benefit from the work we do each sprint
+- With the Product Owner, we ensure that the team is focused on work with the highest possible business value
+- With the Product Owner, we ensure that the impact we have each sprint is instrumented and its value maximized
+- With the Product Owner, we ensure that we use techniques such as Design Thinking to maximize for customer satisfaction
+
+## Release Planning
+
+### Explanation
+
+A Development Team's velocity is a historical record of the amount of work completed in previous Sprints. This can help forecast how much work the team can get done per Sprint.
+
+Given a team's known velocity for its last several Sprints, a Release Plan represents how much scope that team intends to deliver by a given deadline. Alternatively, the forecast can show how long it will take to get a certain amount of the Product Backlog converted into working software. This is data vs. feature target planning.',
+
+**Answers**
+
+- 1: We build functionality for the sprint and do not have a longer term vision for where we are going
+- 2: We know where the product should be this month
+- 3: We have a long term vision for the product that is well articulated by the Product Owner
+- 4: We track progress every sprint and can easily make realistic adjustments
+
+**Hints**
+
+- Our Product Owner knows when our next release will likely be delivered and what the scope is likely to be
+- Our Product Owner has a public release plan
+- Our Product Owner understands that we can commit to a date or to scope, but not both
+- Our Product Owner is familiar with the cone of uncertainty and understands that we know more as time progresses
+
+## Test Focus
+
+## Explanation
+
+Test Focus ensures that everyone on the team has quality and automation in mind, and this is not the responsibility of just a person or two.',
+
+**Answers**
+
+- 1: Our Continuous Integration system is not yet set up
+- 2: Our Continuous Integration system runs with every commits which not necessarily invalidates builds
+- 3: Our Continuous Integration system ensures we have high test coverage
+- 4: Our Continuous Integration system accounts performance, integration, i18n, compatibility
+
+**Hints**
+
+- Commits include accompanying automated tests
+- Commits trigger a Continuous Integration job that validates our functionality
+- Commits require very little human intervention to be validated
+- Commits are validated in terms of performance, security, i18n, and other advanced considerations
